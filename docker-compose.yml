@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  bundler:
+    image: ruby:2.7
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+      - gems:/usr/local/bundle/gems
+
+volumes:
+  gems:
