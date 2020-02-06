@@ -8,7 +8,4 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/app
-      - gems:/usr/local/bundle/gems
-
-volumes:
-  gems:
+      - ./gems:/usr/local/bundle/gems
