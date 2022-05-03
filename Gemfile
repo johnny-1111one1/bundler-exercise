@@ -6,7 +6,7 @@ gem 'jwt', '1.5.6'
 gem 'pg', '~> 0.21'
 gem 'rspec', '~> 3.5.0'
 gem 'rubocop', '0.78.0'
-gem 'sinatra', '~> 1.4'
+gem 'sinatra', '~> 2.2'
 
 # source 'https://myprivategems.silvercar.com' do
 #   gem 'my_gem'
