@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'aws-sdk-s3', '~> 1.59.0'
-gem 'httparty', '0.16.4'
+gem 'httparty', '0.21.0'
 gem 'jwt', '1.5.6'
 gem 'pg', '~> 0.21'
 gem 'rspec', '~> 3.5.0'
